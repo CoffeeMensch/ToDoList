@@ -1,0 +1,12 @@
+@media screen and (max-width: 767px) {
+    #printPaneToDoList {
+        width: 90%;
+    }
+
+    button {
+        font-size: xx-large;
+        width: -webkit-fill-available
+    }
+}
+
+

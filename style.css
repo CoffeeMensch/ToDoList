@@ -1,0 +1,126 @@
+header {
+    position: fixed;
+    height: 50px;
+    width: -webkit-fill-available;
+    background-color: khaki;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    height: 1000px;
+    background-color: snow;
+}
+
+footer {
+    height: 50px;
+    width: -webkit-fill-available;
+    background-color: khaki;
+}
+body {
+    margin: 0px;
+}
+
+#printPaneToDoList {
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-around;
+    height: 40%;
+    width: 30%;
+    border-radius: 30px;
+    background-color: powderblue;
+    box-shadow: 0 30px 100px rgb(15 16 16 / 15%);
+}
+
+h1 {
+    color: snow;
+    text-align: center;
+    font-family: sans-serif;
+    box-shadow: 0 0px 80px rgb(15 15 16 / 15%);
+}
+
+input {
+    height: 40px;
+    border-color: snow;
+    border-width: 0px;
+    border-radius: 3px;
+    box-shadow: 0 30px 100px rgb(15 16 16 / 15%);
+}
+
+button {
+    width: 40%;
+    height: 40px;
+    background-color: snow;
+    border-radius: 3px;
+    border-width: 0px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: powderblue;
+}
+
+#toDoContayner {
+
+}
+
+.text_elem {
+    padding: 1%;
+    flex-grow: 1;
+}
+
+.item {
+   visibility: hidden;
+    display: flex;
+}
+
+img {
+    margin: -10px;
+    width: 35px;
+    height: 48px;
+}
+
+.grow_elem {
+    margin: 5px;
+    border-radius: 15px;
+    height: 30px;
+    width: 30px;
+}
+
+#positButtonFeedback {
+    background-color: powderblue;
+    border-color:  snow;
+    color: powderblue;
+    background-image: -webkit-linear-gradient(45deg, snow 50%, transparent 50%);
+    background-image: linear-gradient(45deg, snow 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+#positButtonFeedback:hover {
+    background-position: 0;
+}
+
+#negatButtonFeedbac {
+    background-color: powderblue;
+    border-color: snow;
+    color: powderblue;
+    background-image: -webkit-linear-gradient(45deg, snow 50%, transparent 50%);
+    background-image: linear-gradient(45deg, snow 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+#negatButtonFeedbac:hover {
+    background-position: 0;
+}
+
+
